@@ -1,5 +1,5 @@
 """ added getStock(name) method which takes user's stock ticker name and returns a line chart of the open high low close volume
- divedends stock splits if the ticker is valid. App only runs once Enter button is clicked. """
+ divedends stock splits if the ticker is valid. App only runs once Enter button is clicked. Testing..."""
 import yfinance as yf
 import streamlit as st
 import pandas as pd
