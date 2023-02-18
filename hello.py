@@ -31,10 +31,10 @@ def getStock(name):
 #open high low close volume divedends stock splits
  st.line_chart(tickerDf.Close)
  st.line_chart(tickerDf.Volume)
-i = True
 
 
-name = st.text_input("label goes here") #get user input
+
+name = st.text_input("Enter stock ticker name") #get user input
 with st.form(key = 'my_form_submit_button'):
     submit_button = st.form_submit_button(label="Enter")
     if submit_button:
@@ -50,7 +50,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://cdn.pixabay.com/photo/2019/04/24/11/27/flowers-4151900_960_720.jpg");
+             background-image: url("https://img.freepik.com/premium-vector/abstract-trendy-blue-color-gradient-texture-background-website-banner-creative-art-design_120819-388.jpg");
              background-attachment: fixed;
              background-size: cover
          }}
