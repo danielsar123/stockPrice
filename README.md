@@ -1,7 +1,7 @@
 
 # Simple Stock Price App
 
-This appplication is written with Python and utilizes streamlit framework to allow the user to get information on any desired
+This application is written with Python and utilizes streamlit framework to allow the user to get information on any desired
 company's stock closing price and volume data within any specified intervals. 
 
 
