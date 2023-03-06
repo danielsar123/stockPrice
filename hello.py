@@ -8,7 +8,7 @@ import datetime as dt
 st.write("""
 # Hello, welcome to Danny's Stock Price App!
 
-Shown are the stock closing price and volume of Google!
+Shown are the stock closing price and volume of whatever you choose!
 """)
 def getStock(name,startD,endD): 
     
@@ -36,7 +36,7 @@ def getStock(name,startD,endD):
 with st.form(key = 'my_form_submit_button'):
     startD = st.date_input("Input start date")
     endD = st.date_input("Input end date")  
-    name = st.text_input("label goes here") #get user input
+    name = st.text_input("ticker goes here") #get user input
     submit_button = st.form_submit_button(label="Enter")
     if submit_button:
      if name:                                       
